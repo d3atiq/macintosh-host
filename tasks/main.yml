@@ -4,5 +4,5 @@
 - name: Install apt macmini support packages
   become: true
   apt:
-    name: [ macfanctld, firmware-b43-installer ]
+    name: [ macfanctld ]
     state: present
